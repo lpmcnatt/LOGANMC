@@ -1,5 +1,13 @@
-import React from "react"
+import * as React from 'react'
+import { Link } from 'gatsby'
 
-export default function Home() {
-  return <div>This is my new site.</div>
+const Index = () => {
+ return (
+ <div>
+  <Link to="/about">About Page</Link>
+ <h1>My Landing Page</h1>
+ <p>This is my landing page</p>
+ </div>
+ )
 }
+export default Index
